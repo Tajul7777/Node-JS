@@ -26,3 +26,4 @@
 
 //##03 Access the directory i am inspect in
 console.log(__dirname);
+console.log(__filename);
