@@ -12,14 +12,17 @@
 // }, 1000)
 
 //###setInterval with condition
-var time = 0;
-var timer = setInterval(function(){
-  time +=2;
-  if(time>5)
-  {
-    clearInterval(timer);
-  }
-  else {
-    console.log(time +"sec passed");
-  }
-},2000);
+// var time = 0;
+// var timer = setInterval(function(){
+//   time +=2;
+//   if(time>5)
+//   {
+//     clearInterval(timer);
+//   }
+//   else {
+//     console.log(time +"sec passed");
+//   }
+// },2000);
+
+//##03 Access the directory i am inspect in
+console.log(__dirname);
