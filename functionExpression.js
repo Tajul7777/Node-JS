@@ -4,11 +4,13 @@ function sayHi(){
 }
 sayHi();
 
+// Function Expression
 var sayBye = function(){
   console.log('Aufwidersen');
 }
 sayBye();
 
+//Function Calling with parameter
 function callFunction(fun){
   fun();
 }
